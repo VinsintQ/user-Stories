@@ -1,0 +1,33 @@
+
+
+
+ Feature : Collaborative Stories 
+
+
+As a User i want to post a Story so that other user can contribute in  
+    -  Given that user is logged in when user Click post story then the System should create story and show it 
+    - Given a story has been posted by a user , When other users visits the stories page,Then the new story should be available for contribution.
+
+
+ 
+* As a User i want to be able to Edit my own Stories so that i keep them up to date 
+
+  - Given that i am the  owner of the Story when the I click edit ,then I can edit and update the story 
+  - Given that i am a normal user when i see others stories then i should not be able to edit them .
+ 
+* As a User i want to be able to comment in Stories so that I can share my ideas
+
+ - Given that a user is viewing a story when user click show comment then the system should show available story
+ - Given that a user is viwing a story when user want to write a comment then he  click the "Comment" button to do that.
+
+
+* As a User, I want to see a list of contributors for a story so that I know who participated 
+
+- Given that a user viewing a story when  user want to know who participated ,then system show every participants User name
+- Given that a user is viewing a story, When the story has no contributions, Then the system should display a message such as “No contributors yet.”
+
+# As a user , i want to able to set a doration for my story so that it will be dissapeared after 
+
+- Given that i am  story owner when the duration is ending soon then i shoud notification 
+- Given that  i am  story owner when i want to extend the duration then option should be available 
+
