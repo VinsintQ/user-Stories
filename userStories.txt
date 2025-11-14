@@ -28,6 +28,6 @@ As a User i want to post a Story so that other user can contribute in
 
 # As a user , i want to able to set a doration for my story so that it will be dissapeared after 
 
-- Given that i am  story owner when the duration is ending soon then i shoud notification 
+- Given that i am  story owner when the duration is ending soon then i should get notification 
 - Given that  i am  story owner when i want to extend the duration then option should be available 
 
